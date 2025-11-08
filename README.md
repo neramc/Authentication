@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21-brightgreen.svg)](https://www.minecraft.net/)
-[![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://www.oracle.com/java/)
+[![Java](https://img.shields.io/badge/Java-21+-orange.svg)](https://www.oracle.com/java/)
 
 마인크래프트 서버에 접속할 때 인증 코드를 요구하는 플러그인입니다.
 
@@ -46,18 +46,18 @@ auth-code: "1234"  # 원하는 인증 코드로 변경
 ## 🛠️ 빌드 방법
 
 ### 요구사항
-- Java 17 이상
-- Maven 3.6 이상
+- Java 21 이상
+- Gradle 8.0 이상
 
 ### 빌드 명령어
 
 ```bash
-git clone https://github.com/yourusername/AuthenticationPlugin.git
-cd AuthenticationPlugin
-mvn clean package
+git clone https://github.com/neramc/Authentication.git
+cd Authentication
+./gradlew build
 ```
 
-빌드된 파일은 `target/Authentication-1.0-SNAPSHOT.jar`에 생성됩니다.
+빌드된 파일은 `build/libs/Authentication-1.0-SNAPSHOT.jar`에 생성됩니다.
 
 ## 📦 의존성
 
@@ -80,7 +80,7 @@ mvn clean package
 
 ## 📧 문의
 
-프로젝트 링크: [https://github.com/yourusername/AuthenticationPlugin](https://github.com/neramc/Authentication)
+프로젝트 링크: [https://github.com/neramc/Authentication](https://github.com/neramc/Authentication)
 
 ## 🙏 감사의 말
 
