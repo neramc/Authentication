@@ -80,7 +80,7 @@ mvn clean package
 
 ## 📧 문의
 
-프로젝트 링크: [https://github.com/yourusername/AuthenticationPlugin](https://github.com/yourusername/AuthenticationPlugin)
+프로젝트 링크: [https://github.com/yourusername/AuthenticationPlugin](https://github.com/neramc/Authentication)
 
 ## 🙏 감사의 말
 
