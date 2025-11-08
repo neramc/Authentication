@@ -56,15 +56,15 @@ Before submitting:
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/AuthenticationPlugin.git
+git clone https://github.com/yourusername/Authentication.git
 
 # Navigate to directory
-cd AuthenticationPlugin
+cd Authentication
 
-# Build with Maven
-mvn clean package
+# Build with Gradle
+./gradlew build
 
-# The compiled .jar will be in target/
+# The compiled .jar will be in build/libs/
 ```
 
 ## Code of Conduct
