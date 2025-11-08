@@ -1,0 +1,22 @@
+
+name: AuthenticationPlugin
+version: 1.0.0
+main: me.jmgs.authentication.ChatAuthPlugin
+api-version: '1.21'
+author: [ Madmovies ]
+description: Server authentication plugin with GUI
+
+commands:
+  authreload:
+    description: Reload authentication settings
+    usage: /authreload
+    permission: auth.reload
+    aliases: [areload]
+  auth-exit:
+    description: Exit from server
+    usage: /auth-exit
+
+permissions:
+  auth.reload:
+    description: Allows reloading authentication settings
+    default: op
